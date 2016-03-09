@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1A687D1C90698E005684DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A687C1C90698E005684DD /* AppDelegate.swift */; };
+		EC1A687F1C90698E005684DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A687E1C90698E005684DD /* ViewController.swift */; };
+		EC1A68821C90698E005684DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A68801C90698E005684DD /* Main.storyboard */; };
+		EC1A68841C90698E005684DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1A68831C90698E005684DD /* Assets.xcassets */; };
+		EC1A68871C90698E005684DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A68851C90698E005684DD /* LaunchScreen.storyboard */; };
+		EC1A68921C90698E005684DD /* UINavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A68911C90698E005684DD /* UINavigationControllerTests.swift */; };
+		EC1A689D1C90698E005684DD /* UINavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A689C1C90698E005684DD /* UINavigationControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1A688E1C90698E005684DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1A68711C90698E005684DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1A68781C90698E005684DD;
+			remoteInfo = UINavigationController;
+		};
+		EC1A68991C90698E005684DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1A68711C90698E005684DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1A68781C90698E005684DD;
+			remoteInfo = UINavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1A68791C90698E005684DD /* UINavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1A687C1C90698E005684DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1A687E1C90698E005684DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1A68811C90698E005684DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1A68831C90698E005684DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1A68861C90698E005684DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1A68881C90698E005684DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1A688D1C90698E005684DD /* UINavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1A68911C90698E005684DD /* UINavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerTests.swift; sourceTree = "<group>"; };
+		EC1A68931C90698E005684DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1A68981C90698E005684DD /* UINavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1A689C1C90698E005684DD /* UINavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerUITests.swift; sourceTree = "<group>"; };
+		EC1A689E1C90698E005684DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1A68761C90698E005684DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A688A1C90698E005684DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A68951C90698E005684DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1A68701C90698E005684DD = {
+			isa = PBXGroup;
+			children = (
+				EC1A687B1C90698E005684DD /* UINavigationController */,
+				EC1A68901C90698E005684DD /* UINavigationControllerTests */,
+				EC1A689B1C90698E005684DD /* UINavigationControllerUITests */,
+				EC1A687A1C90698E005684DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1A687A1C90698E005684DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A68791C90698E005684DD /* UINavigationController.app */,
+				EC1A688D1C90698E005684DD /* UINavigationControllerTests.xctest */,
+				EC1A68981C90698E005684DD /* UINavigationControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1A687B1C90698E005684DD /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A687C1C90698E005684DD /* AppDelegate.swift */,
+				EC1A687E1C90698E005684DD /* ViewController.swift */,
+				EC1A68801C90698E005684DD /* Main.storyboard */,
+				EC1A68831C90698E005684DD /* Assets.xcassets */,
+				EC1A68851C90698E005684DD /* LaunchScreen.storyboard */,
+				EC1A68881C90698E005684DD /* Info.plist */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		EC1A68901C90698E005684DD /* UINavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A68911C90698E005684DD /* UINavigationControllerTests.swift */,
+				EC1A68931C90698E005684DD /* Info.plist */,
+			);
+			path = UINavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		EC1A689B1C90698E005684DD /* UINavigationControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A689C1C90698E005684DD /* UINavigationControllerUITests.swift */,
+				EC1A689E1C90698E005684DD /* Info.plist */,
+			);
+			path = UINavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1A68781C90698E005684DD /* UINavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1A68A11C90698E005684DD /* Build configuration list for PBXNativeTarget "UINavigationController" */;
+			buildPhases = (
+				EC1A68751C90698E005684DD /* Sources */,
+				EC1A68761C90698E005684DD /* Frameworks */,
+				EC1A68771C90698E005684DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UINavigationController;
+			productName = UINavigationController;
+			productReference = EC1A68791C90698E005684DD /* UINavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1A688C1C90698E005684DD /* UINavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1A68A41C90698E005684DD /* Build configuration list for PBXNativeTarget "UINavigationControllerTests" */;
+			buildPhases = (
+				EC1A68891C90698E005684DD /* Sources */,
+				EC1A688A1C90698E005684DD /* Frameworks */,
+				EC1A688B1C90698E005684DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1A688F1C90698E005684DD /* PBXTargetDependency */,
+			);
+			name = UINavigationControllerTests;
+			productName = UINavigationControllerTests;
+			productReference = EC1A688D1C90698E005684DD /* UINavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1A68971C90698E005684DD /* UINavigationControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1A68A71C90698E005684DD /* Build configuration list for PBXNativeTarget "UINavigationControllerUITests" */;
+			buildPhases = (
+				EC1A68941C90698E005684DD /* Sources */,
+				EC1A68951C90698E005684DD /* Frameworks */,
+				EC1A68961C90698E005684DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1A689A1C90698E005684DD /* PBXTargetDependency */,
+			);
+			name = UINavigationControllerUITests;
+			productName = UINavigationControllerUITests;
+			productReference = EC1A68981C90698E005684DD /* UINavigationControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1A68711C90698E005684DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Feliu;
+				TargetAttributes = {
+					EC1A68781C90698E005684DD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EC1A688C1C90698E005684DD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC1A68781C90698E005684DD;
+					};
+					EC1A68971C90698E005684DD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC1A68781C90698E005684DD;
+					};
+				};
+			};
+			buildConfigurationList = EC1A68741C90698E005684DD /* Build configuration list for PBXProject "UINavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1A68701C90698E005684DD;
+			productRefGroup = EC1A687A1C90698E005684DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1A68781C90698E005684DD /* UINavigationController */,
+				EC1A688C1C90698E005684DD /* UINavigationControllerTests */,
+				EC1A68971C90698E005684DD /* UINavigationControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1A68771C90698E005684DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1A68871C90698E005684DD /* LaunchScreen.storyboard in Resources */,
+				EC1A68841C90698E005684DD /* Assets.xcassets in Resources */,
+				EC1A68821C90698E005684DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A688B1C90698E005684DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A68961C90698E005684DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1A68751C90698E005684DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1A687F1C90698E005684DD /* ViewController.swift in Sources */,
+				EC1A687D1C90698E005684DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A68891C90698E005684DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1A68921C90698E005684DD /* UINavigationControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1A68941C90698E005684DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1A689D1C90698E005684DD /* UINavigationControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1A688F1C90698E005684DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1A68781C90698E005684DD /* UINavigationController */;
+			targetProxy = EC1A688E1C90698E005684DD /* PBXContainerItemProxy */;
+		};
+		EC1A689A1C90698E005684DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1A68781C90698E005684DD /* UINavigationController */;
+			targetProxy = EC1A68991C90698E005684DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1A68801C90698E005684DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1A68811C90698E005684DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1A68851C90698E005684DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1A68861C90698E005684DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1A689F1C90698E005684DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC1A68A01C90698E005684DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1A68A21C90698E005684DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UINavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.zhangfei.www.UINavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC1A68A31C90698E005684DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UINavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.zhangfei.www.UINavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC1A68A51C90698E005684DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UINavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.zhangfei.www.UINavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationController.app/UINavigationController";
+			};
+			name = Debug;
+		};
+		EC1A68A61C90698E005684DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UINavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.zhangfei.www.UINavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationController.app/UINavigationController";
+			};
+			name = Release;
+		};
+		EC1A68A81C90698E005684DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UINavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.zhangfei.www.UINavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UINavigationController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC1A68A91C90698E005684DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UINavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.zhangfei.www.UINavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UINavigationController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1A68741C90698E005684DD /* Build configuration list for PBXProject "UINavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1A689F1C90698E005684DD /* Debug */,
+				EC1A68A01C90698E005684DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1A68A11C90698E005684DD /* Build configuration list for PBXNativeTarget "UINavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1A68A21C90698E005684DD /* Debug */,
+				EC1A68A31C90698E005684DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1A68A41C90698E005684DD /* Build configuration list for PBXNativeTarget "UINavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1A68A51C90698E005684DD /* Debug */,
+				EC1A68A61C90698E005684DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1A68A71C90698E005684DD /* Build configuration list for PBXNativeTarget "UINavigationControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1A68A81C90698E005684DD /* Debug */,
+				EC1A68A91C90698E005684DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1A68711C90698E005684DD /* Project object */;
+}
