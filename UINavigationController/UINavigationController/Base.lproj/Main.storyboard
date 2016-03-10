@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xRD-E7-dRx">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -19,25 +19,61 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaN-kM-NcV">
-                                <rect key="frame" x="96" y="40" width="128" height="30"/>
+                                <rect key="frame" x="96" y="80" width="128" height="30"/>
                                 <state key="normal" title="点击弹出一个页面"/>
                                 <connections>
                                     <action selector="presentOneViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ubP-20-HqD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkO-Xf-a4u">
+                                <rect key="frame" x="119" y="138" width="83" height="30"/>
+                                <state key="normal" title="下一个页面"/>
+                                <connections>
+                                    <action selector="nextViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gPR-w9-eMS"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="VaN-kM-NcV" secondAttribute="trailing" constant="80" id="3kE-sO-IjV"/>
+                            <constraint firstItem="NkO-Xf-a4u" firstAttribute="top" secondItem="VaN-kM-NcV" secondAttribute="bottom" constant="28" id="DM7-OJ-PDq"/>
                             <constraint firstItem="VaN-kM-NcV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="G7G-Vm-LaS"/>
+                            <constraint firstItem="VaN-kM-NcV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="80" id="MA6-PC-Etu"/>
                             <constraint firstItem="VaN-kM-NcV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="40" id="Mkt-bx-qF3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NkO-Xf-a4u" secondAttribute="trailing" constant="102" id="jEe-We-OSc"/>
+                            <constraint firstItem="NkO-Xf-a4u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="103" id="uwD-vA-NW2"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Mkt-bx-qF3"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="9fF-5S-qL4"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="398" y="229"/>
+            <point key="canvasLocation" x="794" y="180"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UyK-er-qgb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xRD-E7-dRx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gxR-7d-Tb5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="i0k-73-FNP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nVc-19-HqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="180"/>
         </scene>
     </scenes>
 </document>

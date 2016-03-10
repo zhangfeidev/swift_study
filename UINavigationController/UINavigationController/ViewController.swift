@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("viewDidLoad")
+        
+        self.navigationController?.toolbarHidden = false
         // Do any additional setup after loading the view, typically from a nib.
     }
     //视图将要出现时候调用的方法
@@ -52,6 +54,12 @@ class ViewController: UIViewController {
         presentVC.modalTransitionStyle = .FlipHorizontal
         self.presentViewController(presentVC, animated: true, completion:nil)
     }
+    
+    @IBAction func nextViewController(sender: UIButton) {
+        let secondVC = SecondViewController()
+        self.navigationController?.pushViewController(secondVC, animated: true)
+    }
+    
 
 }
 
