@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
     //加载当前视图控制器中的视图
     override func loadView() {
         super.loadView()
@@ -42,7 +43,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    //执行顺序：
+    //首次进入该页面：loadView --> viewDidLoad --> viewWillAppear --> viewDidAppear --> viewWillDisappear --> viewDidDisappear
+    //视图创建好以后，再次回到该视图的时候：viewWillAppear --> viewDidAppear --> viewWillDisappear --> viewDidDisappear
+    @IBAction func presentOneViewController(sender: UIButton) {
+        let presentVC = FirstViewController()
+        //添加动画
+        presentVC.modalTransitionStyle = .FlipHorizontal
+        self.presentViewController(presentVC, animated: true, completion:nil)
+    }
 
 }
 
