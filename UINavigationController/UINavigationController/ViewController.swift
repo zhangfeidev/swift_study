@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var valueLable: UILabel!
     
     //加载当前视图控制器中的视图
     override func loadView() {
@@ -60,6 +61,20 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(secondVC, animated: true)
     }
     
+    @IBAction func clickWithValue(sender: UIButton) {
+        let secondVC = SecondViewController()
+        secondVC.otherPageVale = "123"//正向传值
+        /**
+        *  反向传值的方式有：
+        *  1.协议
+        *  2.闭包
+        */
+        secondVC.changeVCLableTitleClosuer = {
+            (title) in
+            self.valueLable.text = title
+        }
+        self.navigationController?.pushViewController(secondVC, animated: true)
+    }
 
 }
 

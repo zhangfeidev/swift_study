@@ -32,25 +32,58 @@
                                     <action selector="nextViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gPR-w9-eMS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecJ-c9-R9k">
+                                <rect key="frame" x="110" y="204" width="108" height="30"/>
+                                <state key="normal" title="点击传值：123"/>
+                                <connections>
+                                    <action selector="clickWithValue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="93F-kc-Dzw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="从其他页面传回来的值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jo-1Z-i1k">
+                                <rect key="frame" x="16" y="257" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Qdq-Np-liX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="1jo-1Z-i1k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3cF-b1-Khw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VaN-kM-NcV" secondAttribute="trailing" constant="80" id="3kE-sO-IjV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1jo-1Z-i1k" secondAttribute="trailing" constant="48" id="7GK-o4-qtI"/>
                             <constraint firstItem="NkO-Xf-a4u" firstAttribute="top" secondItem="VaN-kM-NcV" secondAttribute="bottom" constant="28" id="DM7-OJ-PDq"/>
                             <constraint firstItem="VaN-kM-NcV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="G7G-Vm-LaS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ecJ-c9-R9k" secondAttribute="trailing" constant="86" id="LqD-2U-TyV"/>
                             <constraint firstItem="VaN-kM-NcV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="80" id="MA6-PC-Etu"/>
                             <constraint firstItem="VaN-kM-NcV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="40" id="Mkt-bx-qF3"/>
+                            <constraint firstItem="1jo-1Z-i1k" firstAttribute="centerX" secondItem="NkO-Xf-a4u" secondAttribute="centerX" id="OD6-En-n1x"/>
+                            <constraint firstItem="1jo-1Z-i1k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="62" id="dIb-DR-Zeq"/>
+                            <constraint firstItem="1jo-1Z-i1k" firstAttribute="top" secondItem="ecJ-c9-R9k" secondAttribute="bottom" constant="23" id="fod-WM-mWd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="NkO-Xf-a4u" secondAttribute="trailing" constant="102" id="jEe-We-OSc"/>
+                            <constraint firstItem="1jo-1Z-i1k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jug-E3-DmD"/>
+                            <constraint firstItem="ecJ-c9-R9k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="94" id="rHG-37-TlY"/>
                             <constraint firstItem="NkO-Xf-a4u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="103" id="uwD-vA-NW2"/>
+                            <constraint firstItem="ecJ-c9-R9k" firstAttribute="top" secondItem="NkO-Xf-a4u" secondAttribute="bottom" constant="36" id="vWR-vG-rrY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1jo-1Z-i1k" secondAttribute="trailing" id="wBw-n0-IU6"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="Mkt-bx-qF3"/>
+                                <exclude reference="7GK-o4-qtI"/>
+                                <exclude reference="dIb-DR-Zeq"/>
+                                <exclude reference="jug-E3-DmD"/>
+                                <exclude reference="wBw-n0-IU6"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="9fF-5S-qL4"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="valueLable" destination="1jo-1Z-i1k" id="UE1-PO-8s1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
