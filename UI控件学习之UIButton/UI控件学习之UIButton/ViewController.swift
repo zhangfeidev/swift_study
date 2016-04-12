@@ -23,14 +23,14 @@ class ViewController: UIViewController {
         let button2 = UIButton.init(type: UIButtonType.System)
         button2.frame = CGRectMake(50, 150, 100, 100)
         button2.setBackgroundImage(UIImage(named: "iconfont-add"), forState: UIControlState.Normal)
-        button2.addTarget(self, action: "clickButton2", forControlEvents: UIControlEvents.TouchUpInside)
+        button2.addTarget(self, action: #selector(ViewController.clickButton2), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button2)
         
         let button3 = UIButton.init(type: UIButtonType.System)
         button3.frame = CGRectMake(160, 150, 100, 100)
         button3.setTitle("加号", forState: UIControlState.Normal)
         button3.setImage(UIImage(named: "iconfont-add"), forState: UIControlState.Normal)
-        button3.addTarget(self, action: "clickButton3", forControlEvents: UIControlEvents.TouchUpInside)
+        button3.addTarget(self, action: #selector(ViewController.clickButton3), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button3)
         // Do any additional setup after loading the view, typically from a nib.
     }
